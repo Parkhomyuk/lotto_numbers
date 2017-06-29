@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lotto number</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+
+<div class="jumbotron">
+    <div class="title"><h2>Lotto Numbers</h2></div>
+    <div class="row">
+        <div class=" " id="set" hidden>
+
+            <div class="row">
+                <div class="col-md-4 col-xs-4">
+                    <p>Set the number of random numbers</p>
+                </div>
+                <div class="col-md-4 col-xs-4">
+
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  <input id="sNum" value="6">
+
+                </div>
+                <div class="col-md-4 col-xs-2">
+                    <button class="btn btn-primery" id="setNum"  >set </button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-xs-4">
+                    <p>Set interval</p>
+                </div>
+                <div class="col-md-4">
+
+                    <div>from <input value="1" id="minIn"></div>
+                    <div>to&nbsp&nbsp&nbsp&nbsp   <input value="49" id="maxIn"></div>
+                </div>
+                <div class="col-md-2">
+                    <button class="btn btn-primery" id="setInt">set </button>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="col" id="main"></div>
+
+    </div>
+
+</div>
+<script
+        src="http://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
